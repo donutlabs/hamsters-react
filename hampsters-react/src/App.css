@@ -1,0 +1,64 @@
+.App-main {
+  display: flex;
+  flex-direction: column; /* Main column layout */
+  align-items: center; /* Center content horizontally */
+}
+
+.hamster-row {
+  display: flex;
+  justify-content: center; /* Center content horizontally within the row */
+  margin-bottom: 3px; /* Adjust the margin-bottom value as needed */
+  width: 100%; /* Make each row stretch to the full width */
+}
+
+
+
+.hamster-row img {
+  flex: 0 0 auto; /* Prevent images from shrinking or growing */
+  width: auto; /* Automatically adjust width based on image size */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 5px; /* Example margin between images */
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center; /* Center-align all text */
+}
+
+h1 {
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+h3 {
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
